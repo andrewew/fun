@@ -64,7 +64,7 @@ if jetu3 then X:=X+1;
 
 writeln('');
 writeln('Myslel si si cislo ',X);
-writeln(Odznova? a/n);
+writeln('Odznova? a/n');
 C:=ReadKey;
 until (C=#110);
 end.
