@@ -4,6 +4,7 @@ program hra;
 uses crt;
 var X:integer;
     B:char;
+    C:char;
 
 
 function jetu:boolean;
@@ -50,7 +51,9 @@ else jetu3:=false;
 end;
 
 begin
+repeat
 clrscr;
+X:=0;
 
 writeln('mysli si cislo od 1 do 15');
 
@@ -61,5 +64,6 @@ if jetu3 then X:=X+1;
 
 writeln('');
 writeln('Myslel si si cislo ',X);
-readln;
+C:=ReadKey;
+until (C=#110);
 end.
