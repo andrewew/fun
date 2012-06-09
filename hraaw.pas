@@ -1,5 +1,3 @@
-//by *andrew (27)*
-
 program hra;
 uses crt;
 var X:integer;
